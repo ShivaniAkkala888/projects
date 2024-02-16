@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmetics Store</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  
+
+</head>
+<body>
+    <section class="nav">
+    <nav class="navbar navbar-ms-lg navbar-light">
+        <div class="container">
+          <!-- <a class="navbar-brand" href="#" style="color: black;">Cosmetics Store</a> -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Carousal">Carousal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </section>
+    
+<!-- Home -->
+  <section id="Home" style="background-color:lightblue;">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to Cosmetics Store</h1>
+    <p class="lead">Find the perfect products for your beauty needs.</p>
+  </div>
+
+  <div class="container" style="background-color:lightblue;">
+    <h2 class="mb-4">Featured Products</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="images/lipstick.jpg" class="card-img-top" alt="Lipstick">
+          <div class="card-body">
+            <h5 class="card-title">Lipstick</h5>
+            <p class="card-text">Long-lasting and vibrant colors for any occasion.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="images/foundation1.jpg" class="card-img-top" alt="Foundation">
+          <div class="card-body">
+            <h5 class="card-title">Foundation</h5>
+            <p class="card-text">Achieve a flawless complexion with our wide range of foundations.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="images/eye1.jpg" class="card-img-top" alt="Eyeshadow">
+          <div class="card-body">
+            <h5 class="card-title">Eyeshadow Palette</h5>
+            <p class="card-text">Create stunning eye looks with our versatile eyeshadow palettes.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <br>
+  
+  <!-- carousal-->
+ 
+  <section id="Carousal" style="background-color:lightcyan;">
+    <div class="container">
+        <h2 class="mb-4">Carousal</h2>
+        <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/product3.jpg" class="d-block w-100" alt="Lipstick">
+            </div>
+            <div class="carousel-item">
+              <img src="images/product2.jpg" class="d-block w-100" alt="Foundation">
+            </div>
+            <div class="carousel-item">
+              <img src="images/product1.jpg" class="d-block w-100" alt="Eyeshadow">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="About">
+     <div class="container">
+        <!-- <h1 style="color: #fff;">why choose us</h1> -->
+        <!-- <div class="image">
+          <img src="images/product4.jpg" alt="..">
+        </div> -->
+        <table class="color"> <tr>
+        <div class="card">
+          <!-- <h1 style="color: #fff;">why choose us</h1> -->
+          <div class="card-body" style="margin-top: -10px;margin-bottom: -10px;">
+            <h1 style="color: #fff;">why choose us</h1>
+            <td>
+            <img src="images/product4.jpg" alt=".." width="350px"></td>
+            <td>
+            <p class="para" style="padding-left: 50px;">
+            developed our range of services to meet the needs of the companies 
+            involved in the import and distribution of cosmetic products in order 
+            to assist them in placing their products on the market as efficiently 
+            as possible.We help our partners in the entire licencing process, 
+            from the creation of the product label to the completion of the notification
+            process.Our activities are carried out according to the regulation on cosmetic products.
+            Our company has the degree determined in the relevant law, and has the expert who has the 
+            needed professional experience.
+            </p>
+            </td>
+          </div>
+      
+      </div>
+    </tr></table>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section id="Contact">
+      <div class="card">
+        <div class="card-body" style="background-color:lightcyan;">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
